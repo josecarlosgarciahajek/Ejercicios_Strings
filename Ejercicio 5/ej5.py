@@ -1,0 +1,6 @@
+frase = input("Introduce una frase: ")
+ltr_o = input("Introduce la letra a reemplazar: ")
+ltr_d = input("Introduce la letra de reemplazo: ")
+cont = frase.count(ltr_o)
+print("Hay", cont, "letras para reemplazar.")
+print(frase.replace(ltr_o, ltr_d))
